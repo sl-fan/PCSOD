@@ -41,12 +41,12 @@ This paper researches the unexplored task-point cloud salient object detection (
 
 **Dataset** | **Year** | **Pub.** |**Size** | **#training** | **#Testing** | **Download**
   :----: | :----: | :----:  | :----:  | :----:| :----: | :----: |
-  [**PCSOD**]()   |2022 |ECCV   | 2872 | 2000  |872 | [OpenDatasets](https://git.openi.org.cn/OpenDatasets/PCSOD-Dataset/datasets)
+  **PCSOD**   |2022 |ECCV   | 2872 | 2000  |872 | [Baidu Pan](https://pan.baidu.com/s/1EBLY50zQgr8vHM6NFjoQug?pwd=skto) [code: skto]
 
   Note: 3D views and annotated segmentation maps are .ply files, while bounding boxes are .npy files containing their (x,y,z) coordinates of the eight vertices in space.
 
 ### Reproduction
-First, prepare your Anaconda environment following the file named “pcsod.yml”. Then, download our PCSOD dataset from [OpenDatasets](https://git.openi.org.cn/OpenDatasets/PCSOD-Dataset/datasets) and the trained model from  [Baidu Pan](https://pan.baidu.com/s/1_ixpsy16oBikqsrPceG4-w) [code: skto], and put them under the following directory:
+First, prepare your Anaconda environment following the file named “pcsod.yml”. Then, download our PCSOD dataset from [Baidu Pan](https://pan.baidu.com/s/1EBLY50zQgr8vHM6NFjoQug?pwd=skto) [code: skto] and the trained model from  [Baidu Pan](https://pan.baidu.com/s/1_ixpsy16oBikqsrPceG4-w) [code: skto], and put them under the following directory:
 
 ```
 code\
